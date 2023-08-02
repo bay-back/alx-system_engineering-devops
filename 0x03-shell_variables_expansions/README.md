@@ -1,1 +1,1 @@
-This is shell expansion
+bay-expands shell.
