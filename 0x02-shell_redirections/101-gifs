@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Rla | grep -E '.*\.gif$' | awk -F/ '{print $NF}' | awk -F. '{print $1}'
+find . -type f -iname "*.gif" -exec basename {} .gif \; echo
